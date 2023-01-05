@@ -1,5 +1,5 @@
 .form__labelText {
-    max-width: 150px;
+    flex-basis: 150px;
     width: 100%;
     display: inline-block;
     margin-right: 5px;
@@ -9,7 +9,7 @@
 .form__field {
     border: 1px solid hsl(197, 80%, 40%);
     padding: 5px;
-    max-width: 350px;
+    flex-basis: 450px;
     width: 100%;
     border-radius: 3px;
 }
@@ -20,7 +20,7 @@
 
 .form__button {
     width: 100%;
-    max-width: 600px;
+    flex-basis: 700px;
     border: none;
     padding: 10px;
     color: white;
@@ -42,7 +42,7 @@
     border-radius: 3px;
     margin: 20px 0;
     width: 100%;
-    max-width: 600px;
+    flex-basis: 700px;
 }
 
 .form__legend {
@@ -56,6 +56,7 @@
     font-family: "Arial", sans-serif;
     font-size: 12px;
     font-style: italic;
+    text-align: center;
 }
 
 .form__result {
