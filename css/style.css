@@ -5,3 +5,13 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+}
